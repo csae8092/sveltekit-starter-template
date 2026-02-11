@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+    import { app_config } from "$lib/constants";
+</script>
+
+<svelte:head>
+	<title>{app_config.title_short}</title>
+</svelte:head>
+
+<h1>{app_config.title_short}</h1>
+<h2>{app_config.title}</h2>
