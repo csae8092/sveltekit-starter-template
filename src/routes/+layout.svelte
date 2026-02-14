@@ -2,6 +2,7 @@
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.svg';
 	import { app_config, main_nav } from '$lib/constants';
+	import { SiGithub } from '@icons-pack/svelte-simple-icons';
 
 	import MyModeToggleButton from '$lib/components/my-mode-toggle-button.svelte';
 	import * as DropdownMenu from '$lib/components/ui/dropdown-menu/index.js';
@@ -64,7 +65,8 @@
 	</main>
 	<footer class="mt-8 mb-3 flex justify-center">
 		<a href={app_config.code_repo_url}>
-			<span>Link to code on GitHub</span>
+			<SiGithub></SiGithub>
+			<span class="sr-only">Link to code on GitHub</span>
 		</a>
 	</footer>
 </div>
