@@ -10,10 +10,6 @@ export const main_nav = [
 		href: '/about'
 	},
 	{
-		label: 'Bar',
-		href: '/bar'
-	},
-	{
 		label: 'Imprint',
 		href: '/imprint'
 	}
