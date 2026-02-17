@@ -1,26 +1,17 @@
-# sv
+# svelte-starter-template
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A code template for a [SvelteKit](https://svelte.dev/docs/kit/introduction) application
 
-## Creating a project
+## included and configured
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```sh
-# create a new project
-npx sv create my-app
-```
-
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-npx sv create --template minimal --types ts --add prettier eslint tailwindcss="plugins:typography,forms" sveltekit-adapter="adapter:vercel" --install npm sveltekit-starter-template
-```
+- tailwindcss
+- shadcn-componentns
+- basic nav-menu
+- imprint page, hooked to acdh-imprint service
+- dark-mode
+- footer
 
 ## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
 ```sh
 npm run dev
