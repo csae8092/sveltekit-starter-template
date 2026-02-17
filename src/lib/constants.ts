@@ -12,5 +12,11 @@ export const main_nav = [
 	{
 		label: 'Bar',
 		href: '/bar'
+	},
+	{
+		label: 'Imprint',
+		href: '/imprint'
 	}
 ];
+
+export const imprint_api_url = 'https://imprint.acdh.oeaw.ac.at/21966/?redmine=disabled';
