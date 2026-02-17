@@ -1,6 +1,6 @@
 # svelte-starter-template
 
-A code template for a [SvelteKit](https://svelte.dev/docs/kit/introduction) application
+A starter template for a [SvelteKit](https://svelte.dev/docs/kit/introduction) application
 
 ## included and configured
 
